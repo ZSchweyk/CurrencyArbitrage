@@ -11,8 +11,8 @@ def create_exchange_rate_map(currencies: set):
 def main():
     currencies = {"eur", "usd", "gbp", "brl", "cny", "jpy"}
     map = create_exchange_rate_map(currencies)
-    pprint(map)
-    find_arb_ops(map)
+    # pprint(map)
+    pprint(find_arb_ops(map))
 
 
 
